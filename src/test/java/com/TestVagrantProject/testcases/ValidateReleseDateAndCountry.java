@@ -14,10 +14,12 @@ public class ValidateReleseDateAndCountry extends BaseClas {
 	public void ValidateCountry() throws IOException {
 		driver.get(url);
 		Log.info("Web Page Is Open");
+		//Creating Object For Page Class
 		LandingPage lp=new LandingPage(driver);
 		String Country=lp.getCountryName();
 		System.out.println(Country);
 		Log.info("Country Name iS Printed");
+		//Validating Conditions
 		if(Country.equalsIgnoreCase("India")) {
 			Assert.assertTrue(true);
 			Log.info("Country Name Matched");
@@ -29,6 +31,7 @@ public class ValidateReleseDateAndCountry extends BaseClas {
 	}
 	@Test(priority=2)
 	public void ValidateReleseDate() throws IOException {
+		//Url Opens
 		driver.get(url);
 		Log.info("Web Page Is Open");
 		LandingPage lp=new LandingPage(driver);
@@ -39,6 +42,7 @@ public class ValidateReleseDateAndCountry extends BaseClas {
 			Assert.assertTrue(true);
 			Log.info("ReleseDate Matched");
 		}else {
+			//Screenshot Captchured
 			CaptureScreenshot(driver,"ValidateCountryName");
 			Log.warn("ReleseDate Did nor Match");
 			Assert.assertTrue(false);

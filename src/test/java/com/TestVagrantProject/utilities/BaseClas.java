@@ -26,7 +26,7 @@ public class BaseClas {
 	public static WebDriver driver;
 	public static Logger Log=LogManager.getLogger("TestVagrantProject");
 
-	
+	//Cross Browser Testing
 	@BeforeClass
 	public void setup() {
 		switch(browser) {
@@ -53,6 +53,7 @@ public class BaseClas {
 		driver.close();
 		driver.quit();
 	}
+	//ScreenShot Method
 	public void CaptureScreenshot(WebDriver driver,String testName) throws IOException {
 		
 			//step1: convert webdriver object to TakesScreenshot interface

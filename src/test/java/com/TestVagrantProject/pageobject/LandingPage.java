@@ -15,13 +15,14 @@ public class LandingPage {
 		PageFactory.initElements(rdriver, this);//driver that will be used to lookup the web element
 
 	}
-	
+	//Identify WebElement
 	@FindBy(xpath="//td[normalize-space()='India']")
 	WebElement Country;
 	
 	@FindBy(xpath="//tbody/tr[12]/td[1]/div[1]/ul[1]/li[1]")
 	WebElement ReleseDate;
 	
+	//Creating Method For WebElemnt
 	public String getCountryName() {
 		return (Country.getText());
 	}

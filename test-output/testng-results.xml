@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-22T08:36:00 IST" name="Default suite" finished-at="2022-10-22T08:36:17 IST" duration-ms="17299">
+  <suite started-at="2022-10-22T17:46:26 IST" name="Suite" finished-at="2022-10-22T17:46:32 IST" duration-ms="6391">
     <groups>
     </groups>
-    <test started-at="2022-10-22T08:36:00 IST" name="Default test" finished-at="2022-10-22T08:36:17 IST" duration-ms="17299">
+    <test started-at="2022-10-22T17:46:26 IST" name="Test" finished-at="2022-10-22T17:46:32 IST" duration-ms="6391">
       <class name="com.TestVagrantProject.testcases.ValidateReleseDateAndCountry">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T08:36:00 IST" name="setup" finished-at="2022-10-22T08:36:02 IST" duration-ms="2445" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T17:46:26 IST" name="setup" finished-at="2022-10-22T17:46:29 IST" duration-ms="3167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidateCountry()[pri:1, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T08:36:02 IST" name="ValidateCountry" finished-at="2022-10-22T08:36:16 IST" duration-ms="13353" status="PASS">
+        <test-method signature="ValidateCountry()[pri:1, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T17:46:29 IST" name="ValidateCountry" finished-at="2022-10-22T17:46:32 IST" duration-ms="2420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCountry -->
-        <test-method signature="ValidateReleseDate()[pri:2, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T08:36:16 IST" name="ValidateReleseDate" finished-at="2022-10-22T08:36:17 IST" duration-ms="1108" status="PASS">
+        <test-method signature="ValidateReleseDate()[pri:2, instance:com.TestVagrantProject.testcases.ValidateReleseDateAndCountry@604c5de8]" started-at="2022-10-22T17:46:32 IST" name="ValidateReleseDate" finished-at="2022-10-22T17:46:32 IST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateReleseDate -->
       </class> <!-- com.TestVagrantProject.testcases.ValidateReleseDateAndCountry -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

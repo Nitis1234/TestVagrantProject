@@ -16,6 +16,7 @@ public class ReadConfig {
 			e.printStackTrace();
 		}
 	}
+	//Getting Url 
 	public String getBaseUrl() {
 		String value=prop.getProperty("baseUrl");
 		if(value!=null) {
@@ -24,6 +25,7 @@ public class ReadConfig {
 			throw new RuntimeException("url not specified in config file");
 		}
 	}
+	//Getting Browser Name
 	public String getBrowser() {
 		String value=prop.getProperty("browser");
 		if(value!=null) {
