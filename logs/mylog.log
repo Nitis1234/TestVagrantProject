@@ -1,0 +1,19 @@
+[INFO ] 2022-10-22 08:23:38.197 [main] TestVagrantProject - Country Name iS Printed
+[INFO ] 2022-10-22 08:23:38.515 [main] TestVagrantProject - Country Name Did nor Match
+[INFO ] 2022-10-22 08:30:31.844 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:30:31.923 [main] TestVagrantProject - Country Name iS Printed
+[INFO ] 2022-10-22 08:30:32.223 [main] TestVagrantProject - Country Name Did nor Match
+[INFO ] 2022-10-22 08:30:32.758 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:30:32.841 [main] TestVagrantProject - ReleseDate iS Printed
+[INFO ] 2022-10-22 08:30:32.841 [main] TestVagrantProject - ReleseDate Matched[INFO ] 2022-10-22 08:35:44.780 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:35:44.853 [main] TestVagrantProject - Country Name iS Printed
+[INFO ] 2022-10-22 08:35:44.855 [main] TestVagrantProject - Country Name Matched
+[INFO ] 2022-10-22 08:35:45.438 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:35:45.478 [main] TestVagrantProject - ReleseDate iS Printed
+[INFO ] 2022-10-22 08:35:45.478 [main] TestVagrantProject - ReleseDate Matched
+[INFO ] 2022-10-22 08:36:16.233 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:36:16.309 [main] TestVagrantProject - Country Name iS Printed
+[INFO ] 2022-10-22 08:36:16.313 [main] TestVagrantProject - Country Name Matched
+[INFO ] 2022-10-22 08:36:17.401 [main] TestVagrantProject - Web Page Is Open
+[INFO ] 2022-10-22 08:36:17.448 [main] TestVagrantProject - ReleseDate iS Printed
+[INFO ] 2022-10-22 08:36:17.448 [main] TestVagrantProject - ReleseDate Matched
