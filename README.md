@@ -11,5 +11,5 @@ We Can Trigger The Automation Using Jenkins
 *Enter Description And Source Code Mannagement Select Git
 *In Side Git Enter Url
 *Then Move To Build Inside Root Pom Enter "pom.xml"
-*In Gole And Potion Enter "test"
+*In Goals And Options Enter "test"
 *Select Build Now
